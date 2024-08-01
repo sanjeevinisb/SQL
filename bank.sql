@@ -1,6 +1,6 @@
 CREATE DATABASE BANK;
 
-USE BANK;
+USE BANK; 
 
 CREATE TABLE bank_details(id int,b_name varchar(20),b_account_no bigint);
 
@@ -47,7 +47,7 @@ DELETE FROM bank_details WHERE b_address = 'amruta' AND id = 10;
 DELETE FROM bank_details WHERE m_account_code = 12004009875004 AND b_holder_name = 'poorna';
 DELETE FROM bank_details WHERE b_branch_address = 'hubli' AND id = 2;
 
-SELECT * FROM bank_details where b_address = 'baroda bank' AND b_zip_no = 581110;
+SELECT * FROM bank_details where m_account_code = 19003400501346 AND b_zip_no = 581110;
 SELECT * FROM bank_details where id = 5 or  b_branch_address = 'shimoga';
 SELECT * FROM bank_details where id in(8,3,5);
 SELECT * FROM bank_details where id  not in(3,5,9);

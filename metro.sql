@@ -32,3 +32,4 @@ INSERT INTO metro_info VALUES(33,'sumanagar station','green line','local','08:20
 ALTER TABLE metro_info add constraint id_chk check(id>0);
 ALTER TABLE metro_info modify platform_no int not null;
 ALTER TABLE metro_info add constraint lineno_uni unique(lineno);
+select*from metro_info;

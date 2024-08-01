@@ -19,6 +19,7 @@ alter table scam_info rename column scammer_name to scammers_name;
 alter table scam_info drop scam_area;
 
 alter table scam_info modify column pin_code bigint,modify column registered_date int;
+
 Insert into scam_info values(1,23,'pradeep',13,'robery','jainagar',563241,4,435,'24/03/2023',45623.657);
 Insert into scam_info values(2,654,'chouhan',14,'murder','vijaynagar',563352,54,478,'24/01/2024',675.7);
 Insert into scam_info values(3,35,'kamal',15,'kidnap','sujatha',563564,53,123,'18/07/2023',2435.657);
@@ -39,7 +40,6 @@ delete from scam_info where id=7;
 delete from scam_info where victims=35;
 
 select*from scam_info where victims in(54,3,47,13,4);
-select*from scam_info limit 4;
 select*from scam_info where registered_date not in(13,14,6,23,26,27,28);
 
 select*from scam_info;

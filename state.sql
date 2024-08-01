@@ -24,26 +24,26 @@ ALTER TABLE state_details MODIFY COLUMN s_pincode bigint;
 
 
 
-INSERT INTO state_details VALUES(1,'Karnataka',560009,'Dosa','Hampi','Murdeshwara','Ugadi','Kempegowda','Mullyanagiri','jogfalls','Bengaluru');
-INSERT INTO state_details VALUES(2,'Kerala',676123,'Malabar Parota','Munnar','Ananthapadmanabha','Onam','Indo-Portuguese','Wayanad','Periyar','Thiruvananthapuram');
-INSERT INTO state_details VALUES(3,'TamilNadu',600001,'Idli','Ooty','Coimbatore','Pongal','Government','Kodaikanal','Kumbakkarai','Chennai');
-INSERT INTO state_details VALUES(4,'Goa',403514,'Kismur','Beach','Mahadev','GoaCarnival','Chitra','Coorg','Dudhsagar','Panaji');
-INSERT INTO state_details VALUES(5,'AP',676123,'Parota','Tirupathi','Thalpagiri Ranganadha','Vinayaka Chaturthi','PrivateTour','Horsley','Talakona','Amaravati');
-INSERT INTO state_details VALUES(6,'Bihar',765423,'Puri','Munnar','LaxmiDevi','Deepavali','Indo-Portuguese','Wayanad','Periyar','Litti');
-INSERT INTO state_details VALUES(7,'Gujarat',987654,'Samosa','Munnar','Somnath Temple','Navratri ','Indo-Portuguese','Wayanad','Periyar','Patna');
-INSERT INTO state_details VALUES(8,'HP',237689,'Kajju','Munnar','Maa Chintpurni ','Gochi ','Indo-Portuguese','Wayanad','Periyar','Shimla');
-INSERT INTO state_details VALUES(9,'MP',976542,'VadaPav','Munnar','Gopal','Lokrang ','Indo-Portuguese','Wayanad','Periyar','Bhupal');
-INSERT INTO state_details VALUES(10,'Maharashtra',887650,'Roti','Munnar','Trimbakeshwar','Makar Sankranti','Indo-Portuguese','Wayanad','Periyar','Mumbai');
-INSERT INTO state_details VALUES(11,'Rajasthan',122222,'Savjii','Munnar','Birla','Mewar','RajastanMuseum','Guru Shikhar','Periyar','Jaipur');
-INSERT INTO state_details VALUES(12,'Manipur',400011,'Pallav','Munnar','Mahabali','Yaosang','StateMuseum','Tamenglong','Periyar','Impal');
-INSERT INTO state_details VALUES(13,'Assam',400033,'Luchi','Munnar','Kamakhya','Rajini Gabra','Don Bosco','Haflong','Periyar','Dispur');
-INSERT INTO state_details VALUES(14,'Hariyana',987666,'Khichri.','Munnar','Agroha','Guga Navmi','Hariyana','MorniHills','Periyar','Chandigarh');
-INSERT INTO state_details VALUES(15,'Punjab',654320,'Chapati','Munnar','GoldenTEmple','Baisakhi','Punjab','Shimla','Periyar','Chandigarh');
-INSERT INTO state_details VALUES(16,'WestBengal',672233,'Methigajjar','Munnar','Tarapith','Durga Puja','WBMuseum','Darjeeling.','Periyar','Kolkata');
-INSERT INTO state_details VALUES(17,'Uttarakhand',610000,'Rabri','Munnar','Kedarnath','Onam','Indo-Portuguese','Tehri','Periyar','Dehradun');
-INSERT INTO state_details VALUES(18,'Odisha',751012,'Khichede','Bhubaneshwar','Jagannath Temple ','Ratha Yatra','Odisha State ','Samibrukshya','Sanaghagara','Bhubaneswar');
-INSERT INTO state_details VALUES(19,'Meghalaya',793001,'Nakham Bitchi','Exotic','ISKCON','Shad Sukra.','Don Bosco','Garo Hills','Elephant','Shillong');
-INSERT INTO state_details VALUES(20,'Jharkhand',834002,' Dhuska','BabaBaidyanath','PahariMandir','Sarhul','StateMuseum','Parasanath','DassamFalls','Ranchi');
+INSERT INTO state_details VALUES(1,'Karnataka',560009,'Dosa','Hampi','Murdeshwara','Ugadi','Kempegowda',4,'jogfalls','Bengaluru');
+INSERT INTO state_details VALUES(2,'Kerala',676123,'Malabar Parota','Munnar','Ananthapadmanabha','Onam','Indo-Portuguese',2,'Periyar','Thiruvananthapuram');
+INSERT INTO state_details VALUES(3,'TamilNadu',600001,'Idli','Ooty','Coimbatore','Pongal','Government',1,'Kumbakkarai','Chennai');
+INSERT INTO state_details VALUES(4,'Goa',403514,'Kismur','Beach','Mahadev','GoaCarnival','Chitra',3,'Dudhsagar','Panaji');
+INSERT INTO state_details VALUES(5,'AP',676123,'Parota','Tirupathi','Thalpagiri Ranganadha','Vinayaka Chaturthi','PrivateTour',5,'Talakona','Amaravati');
+INSERT INTO state_details VALUES(6,'Bihar',765423,'Puri','Munnar','LaxmiDevi','Deepavali','Indo-Portuguese',7,'Periyar','Litti');
+INSERT INTO state_details VALUES(7,'Gujarat',987654,'Samosa','Munnar','Somnath Temple','Navratri ','Indo-Portuguese',6,'Periyar','Patna');
+INSERT INTO state_details VALUES(8,'HP',237689,'Kajju','Munnar','Maa Chintpurni ','Gochi ','Indo-Portuguese',8,'Periyar','Shimla');
+INSERT INTO state_details VALUES(9,'MP',976542,'VadaPav','Munnar','Gopal','Lokrang ','Indo-Portuguese',9,'Periyar','Bhupal');
+INSERT INTO state_details VALUES(10,'Maharashtra',887650,'Roti','Munnar','Trimbakeshwar','Makar Sankranti','Indo-Portuguese',5,'Periyar','Mumbai');
+INSERT INTO state_details VALUES(11,'Rajasthan',122222,'Savjii','Munnar','Birla','Mewar','RajastanMuseum',10,'Periyar','Jaipur');
+INSERT INTO state_details VALUES(12,'Manipur',400011,'Pallav','Munnar','Mahabali','Yaosang','StateMuseum',19,'Periyar','Impal');
+INSERT INTO state_details VALUES(13,'Assam',400033,'Luchi','Munnar','Kamakhya','Rajini Gabra','Don Bosco',12,'Periyar','Dispur');
+INSERT INTO state_details VALUES(14,'Hariyana',987666,'Khichri.','Munnar','Agroha','Guga Navmi','Hariyana',11,'Periyar','Chandigarh');
+INSERT INTO state_details VALUES(15,'Punjab',654320,'Chapati','Munnar','GoldenTEmple','Baisakhi','Punjab',14,'Periyar','Chandigarh');
+INSERT INTO state_details VALUES(16,'WestBengal',672233,'Methigajjar','Munnar','Tarapith','Durga Puja','WBMuseum',13,'Periyar','Kolkata');
+INSERT INTO state_details VALUES(17,'Uttarakhand',610000,'Rabri','Munnar','Kedarnath','Onam','Indo-Portuguese',17,'Periyar','Dehradun');
+INSERT INTO state_details VALUES(18,'Odisha',751012,'Khichede','Bhubaneshwar','Jagannath Temple ','Ratha Yatra','Odisha State ',16,'Sanaghagara','Bhubaneswar');
+INSERT INTO state_details VALUES(19,'Meghalaya',793001,'Nakham Bitchi','Exotic','ISKCON','Shad Sukra.','Don Bosco',15,'Elephant','Shillong');
+INSERT INTO state_details VALUES(20,'Jharkhand',834002,' Dhuska','BabaBaidyanath','PahariMandir','Sarhul','StateMuseum',20,'DassamFalls','Ranchi');
 
 UPDATE state_details SET s_rivers = 'kaveri' WHERE id = 9;
 UPDATE state_details SET s_rivers = 'krishna' WHERE id = 2;
